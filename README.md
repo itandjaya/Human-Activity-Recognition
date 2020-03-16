@@ -3,13 +3,21 @@ Human Activity Recognition Using Smartphones sensor signals (accelerator and gyr
 
 Included files:
 -. import_data.py:  A script to import, shuffle, and prune the dataset. Data must be downloaded first. See DATA INFORMATION for details.
+
 -. NN_HAR_main.py:  Main function to initiate and train NN model, and validate the model accuracy.
+
 -. NN_Model.py:     Neural Network Model class.
+   
    API functions:
+    
     -. train_NN(X, y):          Train the NN model with given dataset X, y.
+    
     -. test_accuracy( X, y):    Calculate the accuracy of the Model of the test dataset X, y.
+    
     -. plot_training_model():   Plot the accuracy vs. epoch.
+    
     -. predict_funct(X):        Predict the label of given X data.
+
 -. ACCURACY vs EPOCH.png: A plot showing train and test accuracy per epoch.
 
     
